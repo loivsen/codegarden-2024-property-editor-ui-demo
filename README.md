@@ -29,11 +29,11 @@ Open a new terminal and go to the Umbraco folder
 
 ```cd Umbraco```
 
-You can now run and install Umbraco
+You can now run and setup Umbraco
 ```dotnet run```
 
 
-After installing Umbraco, the property editor should show up as an option when creating a new datatype.
+After setting up Umbraco, the property editor should show up as an option when creating a new datatype.
 
 Enable the different settings for the datatype.
 
