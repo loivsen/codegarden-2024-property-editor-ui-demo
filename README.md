@@ -37,4 +37,4 @@ After setting up Umbraco, the property editor should show up as an option when c
 
 Enable the different settings for the datatype.
 
-Be aware that the image from the property editor **will NOT SHOW** when you look at your document! This is because the image was hardcoded for this demo :-) you can edit the URL in `PackageDevelopment/src/my-property-editor.element.ts`
+Be aware that the image from the property editor **will NOT SHOW** when you look at your document! This is because the image was hardcoded for this demo :-) you can edit the URL in _PackageDevelopment/src/my-property-editor.element.ts_
