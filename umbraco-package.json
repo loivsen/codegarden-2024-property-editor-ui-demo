@@ -1,0 +1,41 @@
+{
+    "$schema": "../../umbraco-package-schema.json",
+    "name": "My Package",
+    "version": "1.0.0",
+    "extensions": [
+        {
+            "type": "propertyEditorUi",
+            "alias": "My.PropertyEditorUi.ImagingFilter",
+            "name": "My Imaging Filter",
+            "element": "/App_Plugins/MyPackage/dist/my-imaging-filter.js",
+            "meta": {
+                "label": "Imaging Filter",
+                "icon": "icon-palette",
+                "group": "common",
+                "propertyEditorSchemaAlias": "Umbraco.Plain.Json",
+                "settings": {
+                    "properties": [
+                        {
+                            "alias": "allowContrast",
+                            "label": "Allow Contrast",
+                            "description": "Allow the user to adjust the contrast of the image",
+                            "propertyEditorUiAlias": "Umb.PropertyEditorUi.Toggle"
+                        },
+                        {
+                            "alias": "allowSaturate",
+                            "label": "Allow Saturate",
+                            "description": "Allow the user to adjust the saturation of the image",
+                            "propertyEditorUiAlias": "Umb.PropertyEditorUi.Toggle"
+                        },
+                        {   
+                            "alias": "allowHueRotate",
+                            "label": "Allow Hue Rotation",
+                            "description": "Allow the user to adjust the hue of the image",
+                            "propertyEditorUiAlias": "Umb.PropertyEditorUi.Toggle"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
